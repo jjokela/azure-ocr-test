@@ -16,8 +16,8 @@ import time
 Authenticate
 Authenticates your credentials and creates a client.
 '''
-subscription_key = "d50a92ccd8aa4bc5825a223b1ba558e4"
-endpoint = "https://cogres.cognitiveservices.azure.com/"
+subscription_key = "xxxxxxxxx"
+endpoint = "https://yyyyyyyyy.cognitiveservices.azure.com/"
 
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
 '''
