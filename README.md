@@ -10,7 +10,7 @@ What you need:
 - Azure account
 - create Computer Vision resource in your account
 
-Clone the repo, install following packages:
+Clone the repo, create a venv and install following packages:
 - `pip install --upgrade azure-cognitiveservices-vision-computervision`
 - `pip install pillow`
 
@@ -18,7 +18,7 @@ In the code, replace the key and endpoint of your own Computer Vision resource:
 - `subscription_key = 'XYZ'`
 - `endpoint = 'ABC'`
 
-Then run the sample.
+Then run the sample `main.py`.
 
 You get back the following result:
 ```
